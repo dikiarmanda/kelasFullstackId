@@ -1,0 +1,21 @@
+body {
+    background-color: #FDEEDC;
+}
+
+h1, h2, h3 {
+    color: #F1F6F5;
+    background-color: black;
+    font-size: smaller;
+}
+
+span {
+    color: black;
+}
+
+#list2 {
+    color:#DC0000;
+}
+
+.mark {
+    background-color: orange;
+}
