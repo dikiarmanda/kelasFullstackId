@@ -1,0 +1,25 @@
+body {
+    background: #c2ded1;
+    font-family: 'Nunito Sans', sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+header h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+header h1:nth-child(2n) {
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    header h1 {
+        font-size: 3rem;
+    }
+}
